@@ -24,7 +24,6 @@ public class AccountPage {
 	}
 
 	public String getHomePageTitle() {
-		System.out.println("webhook Test");
 		return elementUtils.waitForTitleIs(5, Constants.ACC_PAGE_TITLE);
 	}
 
